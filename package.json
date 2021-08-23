@@ -1,0 +1,33 @@
+{
+  "name": "@devbelvg/search-autocomplete",
+  "version": "0.9.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Celebros AutoComplete for PWA Studio",
+  "main": "./intercept.js",
+  "scripts": {
+    "clean": " "
+  },
+  "license": "(OSL-3.0 OR AFL-3.0)",
+  "peerDependencies": {
+    "@magento/pwa-buildpack": "~8.0.1",
+    "@magento/venia-ui": "~6.0.1"
+  },
+  "pwa-studio": {
+    "targets": {
+      "intercept": "./intercept"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbelvg/celebros-pwa-studio-autocomplete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devbelvg/celebros-pwa-studio-autocomplete/issues"
+  },
+  "homepage": "https://github.com/devbelvg/celebros-pwa-studio-autocomplete#readme"
+}
